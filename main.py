@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-import pandas as pd
+#import pandas as pd
+
+import modin.pandas as pd
 import csv
 
 print("Going to read the CSV file...")
