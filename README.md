@@ -77,7 +77,7 @@ FROM data GROUP BY request_ip, interval_alias
 ORDER BY interval_alias ASC
 LIMIT 5
 ```
-You can use the `LIMIT 5` just to see if your data is fine.
+You can use the `LIMIT 5` just to see if your data is fine, before going with the heavy query.
 
 
 ### Export the previous query into a csv file
