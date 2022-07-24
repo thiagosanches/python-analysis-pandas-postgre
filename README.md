@@ -18,7 +18,7 @@ I tested with small sample of data from the file `filtered-data.csv` with 1000 r
 
 Attempt to run some analysis using PostgreSQL.
 
-After you have created the container, all the sub-sequent commands are assuming that you are running inside the container. To run inside the container: `docker exec -it <container_id> bash`.
+First you have created the container:
 
 ### Create a postgresql container
 
@@ -31,6 +31,15 @@ docker run -d \
 -v /custom/mount:/var/lib/postgresql/data \
 postgres
 ```
+
+All the sub-sequent commands are assuming that you are running the queries inside the container. 
+
+To run inside the container: 
+
+- Enter in the container: `docker exec -it <container_id> bash`.
+- Connect into the postgresql server: `psql -U postgres`.
+- Create a database: `postgres=# CREATE DATABASE dbname;`.
+- Connect to the database: `postgres=# \c dbname;`
 
 ### Create a table that you want to import the data (csv)
 
