@@ -4,7 +4,7 @@
 The `filtered-data.csv` was a file with 3 columns:
 `date`, `time`, `request_ip`.
 
-I wanted to see requests for every user on a interval of 5 minutes.
+I wanted to see requests from every user on an interval of 5 minutes.
 
 # Pandas
 
@@ -12,7 +12,7 @@ Attempt to run some analysis using pandas.
 
 Take a look on [main.py](./main.py) file.
 
-However, on my machine it took forever and I was not able to get the data that I wanted, so I decided to perform the analysis on a database.
+I tested with small sample of data from the file `filtered-data.csv` with 1000 lines and worked perfectly. However, with the real file (4.5GB) on my machine it took forever and I was not able to get any data that I wanted, so I decided to perform the analysis on a database.
 
 # PostgreSQL
 
