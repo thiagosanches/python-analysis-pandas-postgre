@@ -4,7 +4,7 @@
 The `filtered-data.csv` was a file with 3 columns:
 `date`, `time`, `request_ip`.
 
-I wanted to see requests from every user on an interval of 5 minutes.
+I wanted to see the requests from every user on an interval of 5 minutes.
 
 # Pandas
 
