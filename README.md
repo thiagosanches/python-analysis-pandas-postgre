@@ -16,11 +16,11 @@ I tested with small sample of data from the file `filtered-data.csv` with 1000 r
 
 # PostgreSQL
 
-I used the version: `14.4`.
-
 Attempt to run some analysis using PostgreSQL.
 
-First you have created the container:
+I used the version: `14.4`.
+
+First you have to create the container:
 
 ### Create a postgresql container
 
