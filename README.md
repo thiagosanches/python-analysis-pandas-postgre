@@ -49,7 +49,7 @@ This file can be huge!
 
 You have to copy the `filtered-data.csv` into the mapped volume (`/custom/mount/pgdata/`).
 
-It took less than 30 minutes to import a 4.5GB files with 86 million lines.
+It took less than 30 minutes to import a 4.5GB files with 86 million rows.
 
 ```sql
 COPY data(date, time, request_ip)
