@@ -1,4 +1,4 @@
-# python-analysis-pandas
+# python-analysis-pandas-postgre
 
 # Pandas
 
