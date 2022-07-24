@@ -34,7 +34,7 @@ docker run -d \
 postgres
 ```
 
-All the sub-sequent commands are assuming that you are running the queries inside the container. 
+For all the sub-sequent commands are assuming that you are running the queries inside the container. 
 
 To run inside the container: 
 
@@ -60,7 +60,7 @@ This file can be huge!
 
 You have to copy the `filtered-data.csv` into the mapped volume (`/custom/mount/pgdata/`).
 
-It took less than 30 minutes to import a 4.5GB files with 86 million rows.
+It took less than 30 minutes to import a 4.5GB file with 86 million rows.
 
 ```sql
 COPY data(date, time, request_ip)
