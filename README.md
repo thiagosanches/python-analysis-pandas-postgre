@@ -1,5 +1,9 @@
 # python-analysis-pandas-postgre
 
+# The main data
+The `filtered-data.csv` was a file with 3 columns:
+`date`, `time`, `request_ip`.
+
 # Pandas
 
 Attempt to run some analysis using pandas. 
@@ -77,3 +81,6 @@ COPY (
 ```
 
 The file will be saved on `/tmp/resampled-data-2.csv`, you have to move to `/var/lib/postgresql/data/pgdata`.
+
+### Results
+I got a better performance on PostgreSQL, I didn't create any index or so, but for the heavy query described above it tooks around 10 minutes to finish and save the file, way better than pandas.
