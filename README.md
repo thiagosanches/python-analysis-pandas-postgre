@@ -6,6 +6,8 @@ Attempt to run some analysis using pandas.
 
 Take a look on [main.py](./main.py) file.
 
+However, on my machine it took forever and I was not able to get the data that I wanted, so I decided to perform the analysis on a database.
+
 # PostgreSQL
 
 Attempt to run some analysis using PostgreSQL.
