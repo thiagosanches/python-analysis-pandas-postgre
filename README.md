@@ -77,7 +77,7 @@ SELECT request_ip, COUNT(request_ip) request_ip,
 to_timestamp(floor((extract('epoch' from TO_TIMESTAMP(concat(date, concat(' ', time)), 'YYYY/MM/DD/HH24:MI:ss')) / 300 )) * 300) AT TIME ZONE 'UTC' as interval_alias
 FROM data GROUP BY request_ip, interval_alias
 ORDER BY interval_alias ASC
-LIMIT 5
+LIMIT 5;
 ```
 You can use the `LIMIT 5` just to see if your data is fine, before going with the heavy query.
 
