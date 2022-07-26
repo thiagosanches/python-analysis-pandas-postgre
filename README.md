@@ -52,7 +52,7 @@ CREATE TABLE data (
   time VARCHAR(255),
   request_ip VARCHAR(255),
   PRIMARY KEY (id)
-)
+);
 ```
 
 ### Import the CSV into the previous created table
